@@ -223,4 +223,6 @@
 
 ### Security
 
+FIXED TO WORK WITH THE LATEST S3 Adapter
+
 If you discover any security-related issues, please email [ctf0-dev@protonmail.com](mailto:ctf0-dev@protonmail.com).
