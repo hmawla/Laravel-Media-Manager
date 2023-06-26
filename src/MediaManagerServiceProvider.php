@@ -81,7 +81,7 @@ class MediaManagerServiceProvider extends ServiceProvider
             // base url
             $url = $this->app['filesystem']
                         ->disk($config['storage_disk'])
-                        ->url('/');
+                        ->url('/.');
             $data['base_url'] = preg_replace('/\/+$/', '/', $url);
 
             // upload panel bg patterns
